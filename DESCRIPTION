@@ -1,0 +1,18 @@
+Package: reactometree
+Title: Hierachical Pathway Annotation (Reactome)
+Version: 0.1
+Authors@R: c(person("Tom", "Kelly", email = "tom.kelly@postgrad.otago.ac.nz",
+                  role = c("aut", "cre")), person("Mik", "Black", email = "mik.black@.otago.ac.nz",
+                  role = c("aut")))
+Description: Annotation of pathway relationships for data tables for Reactome
+    pathways
+Depends:
+    R (>= 3.1.0)
+License: GPL-3
+LazyData: true
+Imports:
+    reactome.db,
+    curl,
+    data.table,
+    data.tree
+RoxygenNote: 5.0.1
